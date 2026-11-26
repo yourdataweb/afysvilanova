@@ -84,6 +84,8 @@ for (const l of LANGS) {
       }).length,
       langLinks: [...document.querySelectorAll(".langs__link")].map((a) => a.getAttribute("href")),
       quotes: document.querySelectorAll(".quote").length,
+      wrapPaddingLeft: parseFloat(getComputedStyle(document.querySelector(".wrap")).paddingLeft) || 0,
+      wrapMaxWidth: getComputedStyle(document.querySelector(".wrap")).maxWidth,
       /* Flat values, not an IIFE returning an object: an IIFE here serialises as an empty
          object through page.evaluate, so the photo assertions would read undefined. */
       heroPhotoSrc: (function () { var el = document.querySelector(".hero__photo img"); return el ? el.getAttribute("src") : null; })(),
@@ -119,6 +121,12 @@ for (const l of LANGS) {
     `[${l.code}] map embed src with place coordinates`);
   ok(info.mapIframes === 0, `[${l.code}] map not loaded before consent`, String(info.mapIframes));
   ok(info.cookieBar, `[${l.code}] cookie notice present`);
+  // Layout guard: a missing --pad/--wrap token renders content flush to the viewport
+  // edge, which looks broken but passes every content assertion.
+  ok(info.wrapPaddingLeft >= 8, `[${l.code}] page content has side padding`,
+    `wrap padding-left=${info.wrapPaddingLeft}px`);
+  ok(!!info.wrapMaxWidth && info.wrapMaxWidth !== "none",
+    `[${l.code}] .wrap is width-constrained (--wrap token present)`, info.wrapMaxWidth);
   ok(info.imgsNoAlt === 0, `[${l.code}] all <img> have alt`, String(info.imgsNoAlt));
   ok(info.emptyLinks === 0, `[${l.code}] no empty href`, String(info.emptyLinks));
   ok(info.quotes === Object.keys(JSON.parse(readFileSync(join(ROOT, `src/i18n/${l.code}.json`), "utf8")).reviews.items).length,

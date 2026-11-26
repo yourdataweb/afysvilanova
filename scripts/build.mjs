@@ -207,6 +207,7 @@ function buildLocale(lang) {
     business: {
       ...biz,
       cityShort: biz.city,
+      addressShort: [biz.street, `${biz.postalCode} ${biz.city}`.trim()].filter(Boolean).join(", "),
       countryName: t.countryName || biz.country,
       websiteHost: (biz.website || "").replace(/^https?:\/\//, "").replace(/\/$/, ""),
       ratingFormatted: biz.rating ? Number(biz.rating).toFixed(1) : "",
@@ -227,7 +228,11 @@ function buildLocale(lang) {
     featureCards: featureKeys.map((k) => ({
       icon: iconFor(k), title: t.features.items[k].title, text: t.features.items[k].text,
     })),
-    dishes: dishKeys.map((k) => ({ title: t.menu.items[k].title, text: t.menu.items[k].text })),
+    dishes: dishKeys.map((k, i) => ({
+      num: String(i + 1).padStart(2, "0"),
+      title: t.menu.items[k].title, text: t.menu.items[k].text,
+    })),
+    areas: Object.values(t.about.areas || {}),
     quotes: quoteKeys.map((k) => {
       const q = t.reviews.items[k];
       return {

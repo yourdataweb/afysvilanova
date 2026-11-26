@@ -26,7 +26,7 @@
     "title": "An accountancy practice you can rely on",
     "subtitle": "Tax, bookkeeping, payroll and rental management for individuals and small businesses. A team with its own specialisms, who explain things plainly.",
     "ctaPrimary": "Get directions",
-    "ctaSecondary": "Call the practice",
+    "ctaSecondary": "Send a message",
     "viewOnGoogle": "View on Google",
     "ratingLabel": "average rating",
     "ratingReviews": "reviews",
@@ -34,7 +34,14 @@
     "point2": "A team with its own specialisms",
     "point3": "Rental and property management",
     "photoAlt": "photo of the Afys Vilanova office",
-    "photoCredit": "Photo"
+    "photoCredit": "Photo",
+    "credo": "Every year, the same question: what needs filing, when, and how to get it right. Here, someone answers it.",
+    "factsLabel": "Contact details",
+    "factWhereLabel": "Address",
+    "factPhoneLabel": "Phone",
+    "factWebLabel": "Website",
+    "factRatingLabel": "Rating",
+    "factRatingOutOf": "out of 5"
   },
   "about": {
     "eyebrow": "About us",
@@ -50,7 +57,17 @@
     "statRating": "on Google",
     "statReviews": "client reviews",
     "statType": "tax, accounting and payroll",
-    "statPlace": "in central Vilanova"
+    "statPlace": "in central Vilanova",
+    "pullquote": "What clients say, again and again, is the same thing: they answer, and you can count on them.",
+    "areasLabel": "Areas of work",
+    "areas": {
+      "a": "Tax",
+      "b": "Accounting",
+      "c": "Payroll",
+      "d": "Rentals",
+      "e": "Property",
+      "f": "Paperwork"
+    }
   },
   "features": {
     "eyebrow": "How we work",

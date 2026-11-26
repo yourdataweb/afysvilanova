@@ -26,7 +26,7 @@
     "title": "Una asesoría de confianza, desde hace años",
     "subtitle": "Fiscalidad, contabilidad, laboral y gestión de alquileres para particulares y pequeñas empresas. Un equipo con especialidades propias, que te explica las cosas claras.",
     "ctaPrimary": "Ver cómo llegar",
-    "ctaSecondary": "Llamar a la asesoría",
+    "ctaSecondary": "Escribir un mensaje",
     "viewOnGoogle": "Ver ficha en Google",
     "ratingLabel": "valoración media",
     "ratingReviews": "opiniones",
@@ -34,7 +34,14 @@
     "point2": "Equipo con especialidades propias",
     "point3": "Gestión de alquileres y patrimonio",
     "photoAlt": "foto de la oficina de Afys Vilanova",
-    "photoCredit": "Foto"
+    "photoCredit": "Foto",
+    "credo": "Cada año, la misma pregunta: qué hay que presentar, cuándo, y cómo hacerlo bien. Aquí te lo responden.",
+    "factsLabel": "Datos de contacto",
+    "factWhereLabel": "Dirección",
+    "factPhoneLabel": "Teléfono",
+    "factWebLabel": "Web",
+    "factRatingLabel": "Valoración",
+    "factRatingOutOf": "sobre 5"
   },
   "about": {
     "eyebrow": "Quiénes somos",
@@ -50,7 +57,17 @@
     "statRating": "en Google",
     "statReviews": "opiniones de clientes",
     "statType": "fiscal, contable y laboral",
-    "statPlace": "en el centro de Vilanova"
+    "statPlace": "en el centro de Vilanova",
+    "pullquote": "Las opiniones de los clientes dicen lo mismo una y otra vez: responden, y se puede contar con ellas.",
+    "areasLabel": "Áreas de trabajo",
+    "areas": {
+      "a": "Fiscalidad",
+      "b": "Contabilidad",
+      "c": "Laboral",
+      "d": "Alquileres",
+      "e": "Patrimonio",
+      "f": "Trámites"
+    }
   },
   "features": {
     "eyebrow": "Cómo trabajamos",

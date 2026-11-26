@@ -26,7 +26,7 @@
     "title": "Assessoria de confiança, des de fa anys",
     "subtitle": "Fiscalitat, comptabilitat, laboral i gestió de lloguers per a particulars i petites empreses. Un equip amb especialitats pròpies, que t'expliquen les coses clares.",
     "ctaPrimary": "Com arribar-hi",
-    "ctaSecondary": "Trucar a l'assessoria",
+    "ctaSecondary": "Escriure un missatge",
     "viewOnGoogle": "Veure la fitxa a Google",
     "ratingLabel": "valoració mitjana",
     "ratingReviews": "opinions",
@@ -34,7 +34,14 @@
     "point2": "Equip amb especialitats pròpies",
     "point3": "Gestió de lloguers i patrimoni",
     "photoAlt": "foto de l'oficina d'Afys Vilanova",
-    "photoCredit": "Foto"
+    "photoCredit": "Foto",
+    "credo": "Cada any, la mateixa pregunta: què he de presentar, quan, i com ho faig bé. Aquí t'ho responen.",
+    "factsLabel": "Dades de contacte",
+    "factWhereLabel": "Adreça",
+    "factPhoneLabel": "Telèfon",
+    "factWebLabel": "Web",
+    "factRatingLabel": "Valoració",
+    "factRatingOutOf": "sobre 5"
   },
   "about": {
     "eyebrow": "Qui som",
@@ -50,7 +57,17 @@
     "statRating": "a Google",
     "statReviews": "opinions de clients",
     "statType": "fiscal, comptable i laboral",
-    "statPlace": "al centre de Vilanova"
+    "statPlace": "al centre de Vilanova",
+    "pullquote": "Les opinions dels clients parlen de la mateixa cosa una i altra vegada: responen, i s'hi pot comptar.",
+    "areasLabel": "Àrees de treball",
+    "areas": {
+      "a": "Fiscalitat",
+      "b": "Comptabilitat",
+      "c": "Laboral",
+      "d": "Lloguers",
+      "e": "Patrimoni",
+      "f": "Tràmits"
+    }
   },
   "features": {
     "eyebrow": "Com treballem",

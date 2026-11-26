@@ -179,7 +179,7 @@
     <nav class="nav" id="site-nav" data-open="false" aria-label="Main navigation">
       <ul class="nav__list">
         <li><a class="nav__link" href="#about">About us</a></li>
-        <li><a class="nav__link" href="#menu">Services</a></li>
+        <li><a class="nav__link" href="#services">Services</a></li>
         <li><a class="nav__link" href="#reviews">Reviews</a></li>
         <li><a class="nav__link" href="#contact">Contact</a></li>
       </ul>
@@ -194,24 +194,28 @@
 
   <section class="hero" aria-labelledby="hero-title">
     <img class="hero__art" src="../assets/img/hero.svg" alt="" width="1600" height="1000" fetchpriority="high" decoding="async" aria-hidden="true">
+
     <div class="wrap hero__inner">
+      <!-- Text column: the pitch and the two things a client does next. -->
       <div class="hero__copy">
         <p class="eyebrow hero__eyebrow">Vilanova i la Geltrú · Plaça de Soler i Gustems</p>
         <h1 class="hero__title" id="hero-title">An accountancy practice you can rely on</h1>
         <p class="hero__subtitle">Tax, bookkeeping, payroll and rental management for individuals and small businesses. A team with its own specialisms, who explain things plainly.</p>
+
+        <p class="hero__credo">Every year, the same question: what needs filing, when, and how to get it right. Here, someone answers it.</p>
+
         <div class="hero__actions">
-          <a class="btn btn--primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=41.2229113,1.7271098999999999" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 20 3 17V4l6 3 6-3 6 3v13l-6-3-6 3Z"/><path d="M9 7v13M15 4v13"/></svg>
-            Get directions
-          </a>
-          
-          <a class="btn btn--light" href="tel:+34938140819">
+          <a class="btn btn--primary" href="tel:+34938140819">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2.1Z"/></svg>
             938 14 08 19
           </a>
+          <a class="btn btn--ghost" href="#contact">Send a message</a>
         </div>
       </div>
-      <div class="hero__aside">
+
+      <!-- Facts column: no rating card, no decorative list. A practice is judged on
+           what it does and where it is, so those are the only things in the panel. -->
+      <aside class="hero__facts" aria-label="Contact details">
         
         <figure class="hero__photo">
           <img src="../assets/img/hero-photo.jpg" alt="photo of the Afys Vilanova office" width="900" height="675" fetchpriority="high" decoding="async">
@@ -223,37 +227,25 @@
           
         </figure>
         
-        <div class="hero__card">
-          <div class="rating">
-            <span class="rating__star" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.4l-5.8 3.1 1.1-6.45-4.7-4.6 6.5-.95L12 2.6Z"/></svg>
-            </span>
-            <div>
-              <span class="rating__value">4.4</span>
-              <span class="rating__label">average rating</span>
 
-            </div>
+        <dl class="factlist">
+          <div class="factlist__row">
+            <dt>Address</dt>
+            <dd>Plaça de Soler i Gustems, 11 BJS, 08800 Vilanova i la Geltrú</dd>
           </div>
-          <ul class="hero__cardList">
-            <li>
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M10 21v-6h4v6"/></svg>
-              <span>Tax, accounting and payroll</span>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.5"/></svg>
-              <span>A team with its own specialisms</span>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 6.6 6 10a6 6 0 0 1-12 0c0-3.4 3-6 6-10Z"/></svg>
-              <span>Rental and property management</span>
-            </li>
-          </ul>
-          <a class="hero__cardLink" href="https://maps.google.com/?cid=9883613409802930192&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener">
-            View on Google
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
-        </div>
-      </div>
+          <div class="factlist__row">
+            <dt>Phone</dt>
+            <dd><a href="tel:+34938140819">938 14 08 19</a></dd>
+          </div>
+          
+          <div class="factlist__row">
+            <dt>Website</dt>
+            <dd><a href="http://www.afysvilanova.com/" target="_blank" rel="noopener nofollow">www.afysvilanova.com</a></dd>
+          </div>
+          
+          
+        </dl>
+      </aside>
     </div>
   </section>
 
@@ -267,28 +259,28 @@
           <p>What clients value most is clarity: knowing what has to be filed, when, and what happens when the rules change. Each person in the team has their own specialism, and queries do not sit waiting in a drawer.</p>
           <p>They have looked after the same businesses and families for years, which means they know the history and do not start from scratch every year.</p>
         </div>
-        <div class="reveal">
-          <dl class="stats">
-            <div class="stat">
-              <dt class="stat__label">Rating</dt>
-              <dd class="stat__value">
-                4.4
-                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.6l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.4l-5.8 3.1 1.1-6.45-4.7-4.6 6.5-.95L12 2.6Z"/></svg>
-              </dd>
-              <p class="stat__label">on Google</p>
-            </div>
+
+        <!-- Instead of a 2x2 number grid, a single standing claim plus the areas
+             the practice actually covers. A client reads this, not a scoreboard. -->
+        <div class="about__aside reveal">
+          <blockquote class="pullquote">
+            <p>What clients say, again and again, is the same thing: they answer, and you can count on them.</p>
+          </blockquote>
+          <ul class="arealist" aria-label="Areas of work">
             
-            <div class="stat">
-              <dt class="stat__label">Service</dt>
-              <dd class="stat__value">Accountancy</dd>
-              <p class="stat__label">tax, accounting and payroll</p>
-            </div>
-            <div class="stat">
-              <dt class="stat__label">Location</dt>
-              <dd class="stat__value">Vilanova i la Geltrú</dd>
-              <p class="stat__label">in central Vilanova</p>
-            </div>
-          </dl>
+            <li>Tax</li>
+            
+            <li>Accounting</li>
+            
+            <li>Payroll</li>
+            
+            <li>Rentals</li>
+            
+            <li>Property</li>
+            
+            <li>Paperwork</li>
+            
+          </ul>
         </div>
       </div>
     </div>
@@ -342,47 +334,69 @@
     </div>
   </section>
 
-  <section class="section section--sea" id="menu" aria-labelledby="menu-title">
+  <section class="section section--sea" id="services" aria-labelledby="services-title">
     <div class="wrap">
-      <div class="reveal">
+      <div class="services__head reveal">
         <p class="eyebrow">Services</p>
-        <h2 class="h2" id="menu-title">What we do</h2>
+        <h2 class="h2" id="services-title">What we do</h2>
         <p class="lead">The practice covers the areas an individual or small business needs across the year.</p>
       </div>
-      <ul class="menu-grid">
+
+      <!-- Numbered ledger list: services read better as a checklist of what is
+           handled than as cards you would scan like dishes. -->
+      <ol class="ledger">
         
-        <li class="dish reveal">
-          <h3>Tax</h3>
-          <p>Returns, tax filings and planning, for individuals and for businesses.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">01</span>
+          <div class="ledger__body">
+            <h3>Tax</h3>
+            <p>Returns, tax filings and planning, for individuals and for businesses.</p>
+          </div>
         </li>
         
-        <li class="dish reveal">
-          <h3>Accounting</h3>
-          <p>Annual accounts, ledgers and year-end close, kept up to date.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">02</span>
+          <div class="ledger__body">
+            <h3>Accounting</h3>
+            <p>Annual accounts, ledgers and year-end close, kept up to date.</p>
+          </div>
         </li>
         
-        <li class="dish reveal">
-          <h3>Payroll</h3>
-          <p>Contracts, payslips and dealings with the labour authority.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">03</span>
+          <div class="ledger__body">
+            <h3>Payroll</h3>
+            <p>Contracts, payslips and dealings with the labour authority.</p>
+          </div>
         </li>
         
-        <li class="dish reveal">
-          <h3>Rentals and property</h3>
-          <p>Tenancy agreements and management of family property.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">04</span>
+          <div class="ledger__body">
+            <h3>Rentals and property</h3>
+            <p>Tenancy agreements and management of family property.</p>
+          </div>
         </li>
         
-        <li class="dish reveal">
-          <h3>Advice</h3>
-          <p>One-off questions or ongoing support for taking decisions.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">05</span>
+          <div class="ledger__body">
+            <h3>Advice</h3>
+            <p>One-off questions or ongoing support for taking decisions.</p>
+          </div>
         </li>
         
-        <li class="dish reveal">
-          <h3>Paperwork</h3>
-          <p>Handling filings with the authorities, so you are not queueing.</p>
+        <li class="ledger__item reveal">
+          <span class="ledger__num" aria-hidden="true">06</span>
+          <div class="ledger__body">
+            <h3>Paperwork</h3>
+            <p>Handling filings with the authorities, so you are not queueing.</p>
+          </div>
         </li>
         
-      </ul>
-      <p class="menu-note">
+      </ol>
+
+      <p class="services__note">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
         This page publishes no fees and no opening hours: call to talk about your case.
       </p>
@@ -511,7 +525,7 @@
             </a>
             <a class="btn btn--ghost" href="tel:+34938140819">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2.1Z"/></svg>
-              Call the practice
+              Send a message
             </a>
             
           </div>
@@ -556,7 +570,7 @@
         <h2>Navigation</h2>
         <ul>
           <li><a href="#about">About us</a></li>
-          <li><a href="#menu">Services</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a href="#reviews">Reviews</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
