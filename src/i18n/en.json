@@ -1,0 +1,182 @@
+{
+  "locale": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_GB",
+  "dir": "ltr",
+  "pathPrefix": "../",
+  "countryName": "Spain",
+  "brand": {
+    "sub": "Accountancy · Vilanova i la Geltrú"
+  },
+  "meta": {
+    "title": "Afys Vilanova · Tax, accounting and payroll advisers",
+    "description": "Accountancy practice on Plaça de Soler i Gustems, 11, Vilanova i la Geltrú. Tax, bookkeeping, payroll and rental management for individuals and small businesses. Call: 938 14 08 19.",
+    "ogAlt": "Afys Vilanova, tax and accounting advisers in Vilanova i la Geltrú"
+  },
+  "nav": {
+    "about": "About us",
+    "menu": "Services",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "skip": "Skip to main content",
+    "label": "Main navigation"
+  },
+  "hero": {
+    "eyebrow": "Vilanova i la Geltrú · Plaça de Soler i Gustems",
+    "title": "An accountancy practice you can rely on",
+    "subtitle": "Tax, bookkeeping, payroll and rental management for individuals and small businesses. A team with its own specialisms, who explain things plainly.",
+    "ctaPrimary": "Get directions",
+    "ctaSecondary": "Call the practice",
+    "viewOnGoogle": "View on Google",
+    "ratingLabel": "average rating",
+    "ratingReviews": "reviews",
+    "point1": "Tax, accounting and payroll",
+    "point2": "A team with its own specialisms",
+    "point3": "Rental and property management",
+    "photoAlt": "photo of the Afys Vilanova office",
+    "photoCredit": "Photo"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A team, not just another office",
+    "lead": "Afys Vilanova is an accountancy practice on Plaça de Soler i Gustems, in the centre of Vilanova. It works with individuals, freelancers and small businesses who want their paperwork in order and someone who answers when they call.",
+    "body1": "What clients value most is clarity: knowing what has to be filed, when, and what happens when the rules change. Each person in the team has their own specialism, and queries do not sit waiting in a drawer.",
+    "body2": "They have looked after the same businesses and families for years, which means they know the history and do not start from scratch every year.",
+    "statRatingLabel": "Rating",
+    "statReviewsLabel": "Reviews",
+    "statTypeLabel": "Service",
+    "statTypeValue": "Accountancy",
+    "statPlaceLabel": "Location",
+    "statRating": "on Google",
+    "statReviews": "client reviews",
+    "statType": "tax, accounting and payroll",
+    "statPlace": "in central Vilanova"
+  },
+  "features": {
+    "eyebrow": "How we work",
+    "title": "What to expect",
+    "items": {
+      "clarity": {
+        "title": "Plain explanations",
+        "text": "What needs filing, when, and why. No unnecessary jargon."
+      },
+      "response": {
+        "title": "Prompt answers",
+        "text": "Queries answered, not piled up. It is what the reviews mention most."
+      },
+      "specialties": {
+        "title": "Varied specialisms",
+        "text": "Each person on the team owns a subject: tax, payroll, rentals."
+      },
+      "continuity": {
+        "title": "Long-term relationships",
+        "text": "Clients of more than ten years, with shared history."
+      },
+      "individuals": {
+        "title": "Individuals and businesses",
+        "text": "A personal tax return or a business's books, both covered."
+      },
+      "rentals": {
+        "title": "Rental management",
+        "text": "Support with tenancy agreements and property management."
+      }
+    }
+  },
+  "menu": {
+    "eyebrow": "Services",
+    "title": "What we do",
+    "lead": "The practice covers the areas an individual or small business needs across the year.",
+    "items": {
+      "tax": {
+        "title": "Tax",
+        "text": "Returns, tax filings and planning, for individuals and for businesses."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "text": "Annual accounts, ledgers and year-end close, kept up to date."
+      },
+      "labour": {
+        "title": "Payroll",
+        "text": "Contracts, payslips and dealings with the labour authority."
+      },
+      "rentals": {
+        "title": "Rentals and property",
+        "text": "Tenancy agreements and management of family property."
+      },
+      "advisory": {
+        "title": "Advice",
+        "text": "One-off questions or ongoing support for taking decisions."
+      },
+      "procedures": {
+        "title": "Paperwork",
+        "text": "Handling filings with the authorities, so you are not queueing."
+      }
+    },
+    "note": "This page publishes no fees and no opening hours: call to talk about your case."
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What clients say",
+    "lead": "Extracts from reviews published on Google by clients of the practice.",
+    "starsLabel": "{n} out of 5 stars",
+    "reviewsWord": "reviews",
+    "onGoogle": "on Google",
+    "readAll": "Read all reviews",
+    "items": {
+      "r1": {
+        "text": "I put my trust in this practice a long time ago and have never had a single problem. The service is impeccable, they are very efficient, and they have always answered my questions. One of the best in Vilanova.",
+        "author": "Abel",
+        "meta": "7 years ago",
+        "stars": 5
+      },
+      "r2": {
+        "text": "Very professional, and they have always resolved the cases I brought them. There were never any misunderstandings and they kept me informed about every procedure.",
+        "author": "J. Garcia",
+        "meta": "7 years ago",
+        "stars": 5
+      },
+      "r3": {
+        "text": "An excellent team, each with her own specialism. I have trusted them for over ten years, for employment and rental matters. My reference agency in Vilanova.",
+        "author": "Alexandre Urpí",
+        "meta": "6 years ago",
+        "stars": 5
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Where to find us",
+    "lead": "On Plaça de Soler i Gustems, 11, ground floor, in the centre of Vilanova i la Geltrú. Call us or drop in.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "phoneNote": "Call to arrange a time",
+    "webLabel": "Practice website",
+    "mapsLabel": "Open in Google Maps",
+    "mapTitle": "Map showing the location of Afys Vilanova in Vilanova i la Geltrú",
+    "mapNote": "The map only loads if you accept third-party cookies.",
+    "mapLoad": "Load the map",
+    "plusCodeLabel": "Plus Code",
+    "whatsappLabel": "Message on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Tax, accounting and payroll advisers in Vilanova i la Geltrú.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "legalTitle": "Notice",
+    "legal": "This page is an information sheet for the practice. For any matter or query, please contact the office directly.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "siteLink": "Official website"
+  },
+  "cookies": {
+    "text": "We use technical cookies to remember your choice. If you accept, we also measure visits with Google Analytics and load the Google map.",
+    "accept": "Accept",
+    "reject": "Essentials only",
+    "policy": "More information"
+  },
+  "a11y": {
+    "langSwitch": "Change language",
+    "menuToggle": "Open navigation menu",
+    "mapPlaceholder": "Google Maps map"
+  }
+}

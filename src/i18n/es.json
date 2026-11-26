@@ -1,0 +1,182 @@
+{
+  "locale": "es",
+  "htmlLang": "es",
+  "ogLocale": "es_ES",
+  "dir": "ltr",
+  "pathPrefix": "../",
+  "countryName": "España",
+  "brand": {
+    "sub": "Asesoría · Vilanova i la Geltrú"
+  },
+  "meta": {
+    "title": "Afys Vilanova · Asesoría fiscal, contable y laboral",
+    "description": "Asesoría en la Plaça de Soler i Gustems, 11, Vilanova i la Geltrú. Fiscalidad, contabilidad, laboral y gestión de alquileres para particulares y empresas. Llámanos: 938 14 08 19.",
+    "ogAlt": "Afys Vilanova, asesoría fiscal y contable en Vilanova i la Geltrú"
+  },
+  "nav": {
+    "about": "Quiénes somos",
+    "menu": "Servicios",
+    "reviews": "Opiniones",
+    "contact": "Contacto",
+    "skip": "Ir al contenido principal",
+    "label": "Navegación principal"
+  },
+  "hero": {
+    "eyebrow": "Vilanova i la Geltrú · Plaça de Soler i Gustems",
+    "title": "Una asesoría de confianza, desde hace años",
+    "subtitle": "Fiscalidad, contabilidad, laboral y gestión de alquileres para particulares y pequeñas empresas. Un equipo con especialidades propias, que te explica las cosas claras.",
+    "ctaPrimary": "Ver cómo llegar",
+    "ctaSecondary": "Llamar a la asesoría",
+    "viewOnGoogle": "Ver ficha en Google",
+    "ratingLabel": "valoración media",
+    "ratingReviews": "opiniones",
+    "point1": "Fiscalidad, contabilidad y laboral",
+    "point2": "Equipo con especialidades propias",
+    "point3": "Gestión de alquileres y patrimonio",
+    "photoAlt": "foto de la oficina de Afys Vilanova",
+    "photoCredit": "Foto"
+  },
+  "about": {
+    "eyebrow": "Quiénes somos",
+    "title": "Un equipo, no un despacho cualquiera",
+    "lead": "Afys Vilanova es una asesoría en la Plaça de Soler i Gustems, en el centro de Vilanova. Trabaja con particulares, autónomos y pequeñas empresas que quieren tener la documentación en orden y alguien que responda cuando llaman.",
+    "body1": "Lo que más valoran los clientes es la claridad: saber qué hay que presentar, cuándo, y qué pasa si cambia la normativa. Cada persona del equipo tiene su especialidad, y las consultas no se quedan esperando en un cajón.",
+    "body2": "Llevan años acompañando a los mismos negocios y familias, lo que significa que conocen su historial y no les hacen empezar de cero cada año.",
+    "statRatingLabel": "Valoración",
+    "statReviewsLabel": "Opiniones",
+    "statTypeLabel": "Servicio",
+    "statTypeValue": "Asesoría",
+    "statPlaceLabel": "Ubicación",
+    "statRating": "en Google",
+    "statReviews": "opiniones de clientes",
+    "statType": "fiscal, contable y laboral",
+    "statPlace": "en el centro de Vilanova"
+  },
+  "features": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Qué puedes esperar",
+    "items": {
+      "clarity": {
+        "title": "Explicaciones claras",
+        "text": "Qué hay que presentar, cuándo y por qué. Sin jerga innecesaria."
+      },
+      "response": {
+        "title": "Respuesta ágil",
+        "text": "Consultas atendidas, no acumuladas. Es lo que más se repite en las opiniones."
+      },
+      "specialties": {
+        "title": "Especialidades diversas",
+        "text": "Cada persona del equipo domina una materia: fiscal, laboral, alquileres."
+      },
+      "continuity": {
+        "title": "Relación a largo plazo",
+        "text": "Clientes de hace más de diez años, con historial compartido."
+      },
+      "individuals": {
+        "title": "Particulares y empresas",
+        "text": "Tanto una declaración personal como la contabilidad de un negocio."
+      },
+      "rentals": {
+        "title": "Gestión de alquileres",
+        "text": "Acompañamiento en contratos y gestión de patrimonio."
+      }
+    }
+  },
+  "menu": {
+    "eyebrow": "Servicios",
+    "title": "Qué hacemos",
+    "lead": "La asesoría cubre las áreas que necesita un particular o una pequeña empresa a lo largo del año.",
+    "items": {
+      "tax": {
+        "title": "Fiscalidad",
+        "text": "Declaraciones, impuestos y planificación fiscal, para particulares y para negocios."
+      },
+      "accounting": {
+        "title": "Contabilidad",
+        "text": "Cuentas anuales, libros y cierres, llevados al día."
+      },
+      "labour": {
+        "title": "Laboral",
+        "text": "Contratos, nóminas y relación con la administración laboral."
+      },
+      "rentals": {
+        "title": "Alquileres y patrimonio",
+        "text": "Contratos de arrendamiento y gestión del patrimonio familiar."
+      },
+      "advisory": {
+        "title": "Asesoramiento",
+        "text": "Consultas puntuales o acompañamiento continuo para tomar decisiones."
+      },
+      "procedures": {
+        "title": "Trámites",
+        "text": "Gestión de trámites ante las administraciones, sin colas por tu parte."
+      }
+    },
+    "note": "Esta página no publica honorarios ni horarios: llama para hablar de tu caso."
+  },
+  "reviews": {
+    "eyebrow": "Opiniones",
+    "title": "Lo que dicen los clientes",
+    "lead": "Extractos de opiniones publicadas en Google por clientes de la asesoría.",
+    "starsLabel": "{n} de 5 estrellas",
+    "reviewsWord": "opiniones",
+    "onGoogle": "en Google",
+    "readAll": "Leer todas las opiniones",
+    "items": {
+      "r1": {
+        "text": "Confié en esta asesoría hace tiempo y nunca he tenido un problema. El servicio es impecable, muy eficientes, y siempre han respondido a mis preguntas. Una de las mejores de Vilanova.",
+        "author": "Abel",
+        "meta": "Hace 7 años",
+        "stars": 5
+      },
+      "r2": {
+        "text": "Muy profesionales y siempre han resuelto los casos que les he llevado. Nunca ha habido malentendidos y me han mantenido informado de todos los trámites.",
+        "author": "J. Garcia",
+        "meta": "Hace 7 años",
+        "stars": 5
+      },
+      "r3": {
+        "text": "Un equipo excelente, cada una con su especialidad. Confío en ellas desde hace más de diez años, para temas laborales y de alquileres. Mi agencia de referencia en Vilanova.",
+        "author": "Alexandre Urpí",
+        "meta": "Hace 6 años",
+        "stars": 5
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Dónde estamos",
+    "lead": "En la Plaça de Soler i Gustems, 11, bajos, en el centro de Vilanova i la Geltrú. Llámanos o pásate a vernos.",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfono",
+    "phoneNote": "Llama para pedir cita",
+    "webLabel": "Web de la asesoría",
+    "mapsLabel": "Abrir en Google Maps",
+    "mapTitle": "Mapa con la ubicación de Afys Vilanova en Vilanova i la Geltrú",
+    "mapNote": "El mapa solo se carga si aceptas las cookies de terceros.",
+    "mapLoad": "Cargar el mapa",
+    "plusCodeLabel": "Plus Code",
+    "whatsappLabel": "Escribe por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Asesoría fiscal, contable y laboral en Vilanova i la Geltrú.",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "legalTitle": "Aviso",
+    "legal": "Esta página es una ficha informativa de la asesoría. Para cualquier gestión o consulta, contacta directamente con el despacho.",
+    "rights": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba",
+    "siteLink": "Web oficial"
+  },
+  "cookies": {
+    "text": "Usamos cookies técnicas para recordar tu elección. Si aceptas, además medimos las visitas con Google Analytics y cargamos el mapa de Google.",
+    "accept": "Aceptar",
+    "reject": "Solo lo esencial",
+    "policy": "Más información"
+  },
+  "a11y": {
+    "langSwitch": "Cambiar de idioma",
+    "menuToggle": "Abrir menú de navegación",
+    "mapPlaceholder": "Mapa de Google Maps"
+  }
+}
