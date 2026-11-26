@@ -210,9 +210,12 @@ function buildLocale(lang) {
       countryName: t.countryName || biz.country,
       websiteHost: (biz.website || "").replace(/^https?:\/\//, "").replace(/\/$/, ""),
       ratingFormatted: biz.rating ? Number(biz.rating).toFixed(1) : "",
-      ratingCount: biz.ratingCount
+      // The brief only publishes the review count above 50; below that a small
+      // number reads as inexperience rather than evidence.
+      ratingCount: biz.ratingCount > 50
         ? Number(biz.ratingCount).toLocaleString(lang === "en" ? "en-GB" : "es-ES")
         : "",
+      showRatingCount: biz.ratingCount > 50,
       phoneIsMobile: !!biz.phoneIsMobile,
       whatsappLink: biz.phoneIsMobile
         ? `https://wa.me/${biz.phoneE164.replace(/[^0-9]/g, "")}`

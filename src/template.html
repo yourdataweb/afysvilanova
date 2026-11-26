@@ -185,10 +185,10 @@
             <div>
               <span class="rating__value">{{business.ratingFormatted}}</span>
               <span class="rating__label">{{t.hero.ratingLabel}}</span>
-              <span class="rating__count">
+{{#if business.showRatingCount}}              <span class="rating__count">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0"/><circle cx="12" cy="8" r="4"/></svg>
                 {{business.ratingCount}} {{t.hero.ratingReviews}}
-              </span>
+              </span>{{/if}}
             </div>
           </div>
           <ul class="hero__cardList">
@@ -234,11 +234,13 @@
               </dd>
               <p class="stat__label">{{t.about.statRating}}</p>
             </div>
+            {{#if business.showRatingCount}}
             <div class="stat">
               <dt class="stat__label">{{t.about.statReviewsLabel}}</dt>
               <dd class="stat__value">{{business.ratingCount}}</dd>
               <p class="stat__label">{{t.about.statReviews}}</p>
             </div>
+            {{/if}}
             <div class="stat">
               <dt class="stat__label">{{t.about.statTypeLabel}}</dt>
               <dd class="stat__value">{{t.about.statTypeValue}}</dd>
@@ -309,7 +311,7 @@
           </span>
           <div>
             <b>{{business.ratingFormatted}}</b>
-            <span>{{business.ratingCount}} {{t.reviews.reviewsWord}} {{t.reviews.onGoogle}}</span>
+            <span>{{#if business.showRatingCount}}{{business.ratingCount}} {{t.reviews.reviewsWord}} {{else}}{{t.reviews.onGoogle}}{{/if}}</span>
           </div>
         </div>
       </div>

@@ -59,6 +59,7 @@ for (const l of LANGS) {
   const resp = await page.goto(url, { waitUntil: "networkidle2", timeout: 30000 });
   ok(resp.status() === 200, `[${l.code}] 200 response`, String(resp.status()));
 
+  await page.evaluate((c) => { window.BUSINESS_RATING_COUNT = c; }, biz.ratingCount || 0);
   const info = await page.evaluate(() => {
     const ld = document.querySelector('script[type="application/ld+json"]');
     let ldOk = false, ldType = null;
@@ -91,6 +92,14 @@ for (const l of LANGS) {
       heroPhotoTop: (function () { var el = document.querySelector(".hero__photo img"); return el ? el.getBoundingClientRect().top : -1; })(),
       heroPhotoHeight: (function () { var el = document.querySelector(".hero__photo img"); return el ? el.getBoundingClientRect().height : 0; })(),
       viewportHeight: window.innerHeight,
+      /* Does the review count appear as visible text anywhere in the page? */
+      ratingCountVisible: (function () {
+        var n = Number(window.BUSINESS_RATING_COUNT);
+        if (!n) return false;
+        var node = document.querySelector(".rating__count, .reviews__score span");
+        var text = document.body.innerText || "";
+        return text.indexOf(String(n)) !== -1;
+      })(),
       photoCredit: (document.querySelector("[data-photo-credit]") || {}).textContent || "",
     };
   });
@@ -114,6 +123,16 @@ for (const l of LANGS) {
   ok(info.emptyLinks === 0, `[${l.code}] no empty href`, String(info.emptyLinks));
   ok(info.quotes === Object.keys(JSON.parse(readFileSync(join(ROOT, `src/i18n/${l.code}.json`), "utf8")).reviews.items).length,
     `[${l.code}] testimonial count matches dictionary`);
+
+  // Review count rule: published only above 50, and it appears in the hero badge, the
+  // stats block and the reviews header — assert the number is absent from all of them.
+  const countStr = String(biz.ratingCount || "");
+  if (biz.ratingCount && biz.ratingCount <= 50) {
+    ok(!info.ratingCountVisible, `[${l.code}] review count hidden at ${biz.ratingCount} (<=50)`,
+      info.ratingCountVisible);
+  } else if (biz.ratingCount > 50) {
+    ok(info.ratingCountVisible, `[${l.code}] review count shown at ${biz.ratingCount} (>50)`);
+  }
 
   // photo rule: a real business photo in the top half, with alt text and visible credit
   const hasPhoto = !!biz.heroPhoto;
